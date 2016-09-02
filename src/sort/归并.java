@@ -2,10 +2,10 @@ package sort;
 
 import java.util.Arrays;
 
-//该算法是采用分治法
-public class 归并 {
+//璇ョ畻娉曟槸閲囩敤鍒嗘不娉晆
+public class 褰掑苟 {
 	public static void main(String[] args) {
-		归并 g=new 归并();
+		褰掑苟 g=new 褰掑苟();
 		int [] array={3,5,7,1};
 		g.sort(array,0,array.length-1);
 		for(int a:array){
