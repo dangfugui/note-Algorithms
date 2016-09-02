@@ -1,9 +1,9 @@
 package other.lanqiaobei;
 
-public class È«ÅÅÁĞ2 {
+public class å…¨æ’åˆ—2 {
 	char str[]={'1','2','3'};
 	public static void main(String[] args) {
-		È«ÅÅÁĞ2 q=new È«ÅÅÁĞ2();
+		å…¨æ’åˆ—2 q=new å…¨æ’åˆ—2();
 		q.run();
 	}
 	public void run(){
@@ -20,11 +20,11 @@ public class È«ÅÅÁĞ2 {
 		for (int a = i; a < str.length; a++) {
 			char z=str[i];
 			str[i]=str[a];
-			str[a]=z;//½»»»
+			str[a]=z;//äº¤æ¢
 			tree(i+1);
 			z=str[i];
 			str[i]=str[a];
-			str[a]=z;//½»»»
+			str[a]=z;//äº¤æ¢u
 		}
 	}
 }
