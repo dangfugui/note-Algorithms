@@ -4,22 +4,22 @@ package other.permutation;
 
 //http://blog.csdn.net/hackbuteer1/article/details/6657435
 /**
- * µİ¹éÊµÏÖÈ«ÅÅÁĞ  recursion
+ * é€’å½’å®ç°å…¨æ’åˆ—  recursion
  * @author duang
  *
  */
 public class Permutation {
 	public void start(){
 		String str="123456789";
-		System.out.println(str+"µÄÈ«ÅÅÁĞÎª£º");
+		System.out.println(str+"çš„å…¨æ’åˆ—ä¸ºï¼š");
 		recursion(str, 0, str.length()-1);
 		
 	}
 	/**
-	 * µİ¹éÈ«ÅÅÁĞ
-	 * @param strin	×Ö·û´®	
-	 * @param begin	µİ¹é¿ªÊ¼±ê¼Ç
-	 * @param end	½áÊø±ê¼Ç
+	 * é€’å½’å…¨æ’åˆ—u
+	 * @param strin	å­—ç¬¦ä¸²	
+	 * @param begin	é€’å½’å¼€å§‹æ ‡è®°
+	 * @param end	ç»“æŸæ ‡è®°
 	 */
 	public void recursion(String strin,int begin,int end){
 		char[] str=strin.toCharArray();
