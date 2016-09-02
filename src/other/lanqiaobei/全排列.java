@@ -1,9 +1,9 @@
 package other.lanqiaobei;
 
-public class È«ÅÅÁĞ {
+public class å…¨æ’åˆ— {
 	
 	public static void main(String[] args) {
-		È«ÅÅÁĞ q=new È«ÅÅÁĞ();
+		å…¨æ’åˆ— q=new å…¨æ’åˆ—();
 		q.start();
 	}
 	
@@ -22,7 +22,7 @@ public class È«ÅÅÁĞ {
 			print();
 			return;
 		}
-		//ºÍ×ÔÉí½»»»  ¼´²»½»»»Õâ¸öÎ»ÖÃ
+		//å’Œè‡ªèº«äº¤æ¢  å³ä¸äº¤æ¢è¿™ä¸ªä½ç½®u
 		for(int a=i;a<N;a++){
 			swap(i, a);
 			tree(i+1);
