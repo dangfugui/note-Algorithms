@@ -19,10 +19,10 @@ public class MyMath
     //log
     //pow
     /// <summary>
-    /// ½øĞĞ¸´ÔÓ¼ÆËã
+    /// è¿›è¡Œå¤æ‚è®¡ç®—
     /// </summary>
     /// <param name="str_now"></param>
-    /// <returns>¸´ÔÓ¼ÆËã½á¹û</returns>
+    /// <returns>å¤æ‚è®¡ç®—ç»“æœu</returns>
     public String multiple(String str_now)
     {
         str = str_now;
@@ -147,9 +147,9 @@ class Sign
         }
     }
     /// <summary>
-    /// »ñÈ¡×Ö·û³ö¾Ö²¿´ğ°¸
+    /// è·å–å­—ç¬¦å‡ºå±€éƒ¨ç­”æ¡ˆ
     /// </summary>
-    /// <returns>¾Ö²¿´ğ°¸</returns>
+    /// <returns>å±€éƒ¨ç­”æ¡ˆ</returns>
     public String GetAns()
     {
         double da = 0, db = 0;
@@ -173,7 +173,7 @@ class Sign
        // return new MyMath().counter(lift + sign + right);
     }
     /// <summary>
-    /// »ñµÃ´¦Àí·ûºÅÖÜ±ß½á¹ûºóµÄ½á¹û
+    /// è·å¾—å¤„ç†ç¬¦å·å‘¨è¾¹ç»“æœåçš„ç»“æœ
     /// </summary>
     /// <returns></returns>
     public String GetString()
