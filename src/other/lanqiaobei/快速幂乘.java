@@ -1,6 +1,6 @@
 package other.lanqiaobei;
 
-public class ¿ìËÙÃİ³Ë {
+public class å¿«é€Ÿå¹‚ä¹˜ {
 	public void start(){
 		
 	}
