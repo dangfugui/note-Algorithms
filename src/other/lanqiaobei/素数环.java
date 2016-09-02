@@ -1,12 +1,12 @@
 package other.lanqiaobei;
 /**
- * ËØÊı»·ÎÊÌâ£º °Ñ´Ó1µ½20Õâ20¸öÊı°Ú³ÉÒ»¸ö»·£¬ÒªÇóÏàÁÚÁ½¸öÊıµÄºÍÊÇÒ»¸öËØÊı¡£
+ * ç´ æ•°ç¯é—®é¢˜ï¼š æŠŠä»1åˆ°20è¿™20ä¸ªæ•°æ‘†æˆä¸€ä¸ªç¯ï¼Œè¦æ±‚ç›¸é‚»ä¸¤ä¸ªæ•°çš„å’Œæ˜¯ä¸€ä¸ªç´ æ•°ã€‚u
  * @author duang
  *
  */
-public class ËØÊı»· {
+public class ç´ æ•°ç¯ {
 	public static void main(String[] args) {
-		ËØÊı»· s=new ËØÊı»·();
+		ç´ æ•°ç¯ s=new ç´ æ•°ç¯();
 		s.start();
 		System.out.println(s.ans);
 	}
@@ -14,10 +14,10 @@ public class ËØÊı»· {
 	int ans=0;
 	int list[]=new int[N+2];
 	private void start() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		list[1]=1;
 		find(2);
-		//ÒòÎªÊÇ»·ĞÎµÄ  ËùÒÔÒÔ1µÄÎ»ÖÃÎª¸ù
+		//å› ä¸ºæ˜¯ç¯å½¢çš„  æ‰€ä»¥ä»¥1çš„ä½ç½®ä¸ºæ ¹
 		/*for(int a=1;a<=N;a++){
 			list[1]=a;
 			find(2);
@@ -38,7 +38,7 @@ public class ËØÊı»· {
 		}
 	}
 	private void print() {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		for(int a=0;a<list.length;a++){
 			System.out.print(list[a]+" ");
 		}
@@ -58,7 +58,7 @@ public class ËØÊı»· {
 		}
 		return true;
 	}
-	//ÅĞ¶Ïi ÊÇ·ñÎªËØÊı
+	//åˆ¤æ–­i æ˜¯å¦ä¸ºç´ æ•°
 	private boolean susu(int i) {
 		int n=(int) Math.sqrt(i)+1;
 		for(int a=2;a<=n;a++){
