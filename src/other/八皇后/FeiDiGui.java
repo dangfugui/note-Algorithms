@@ -1,4 +1,4 @@
-package other.�˻ʺ�;
+package other.八皇后;
 
 public class FeiDiGui {
 	int N=8;
