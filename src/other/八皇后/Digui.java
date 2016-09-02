@@ -1,12 +1,12 @@
-package other.°Ë»Êºó;
+package other.å…«çš‡å;
 
 public class Digui {
 	public int N=8;
 	public int list[]=new int[16];
-	public int anscount=0;//¿´ÓĞ¶àÉÙÖÖÅÅÁĞ·½Ê½
+	public int anscount=0;//çœ‹æœ‰å¤šå°‘ç§æ’åˆ—æ–¹å¼d
 	public static void main(String[] args) {
 		Digui digui=new Digui();
-		digui.find(1);//´ÓµÚÒ»¸ö¿ªÊ¼
+		digui.find(1);//ä»ç¬¬ä¸€ä¸ªå¼€å§‹
 		System.out.println(digui.anscount);
 	}
 	public void find(int i){
@@ -16,21 +16,21 @@ public class Digui {
 			return;
 		}
 		for(int a=1;a<=N;a++){
-			list[i]=a;//µÚiĞĞÔÚµÚa¸öÎ»ÖÃ£¬aÊÇ1-8£¬Ã¿¸ö¶¼±éÀúÒ»±é
-			if(check(i)){//¼ì²éµÚiĞĞÊÇ·ñ·ûºÏÌõ¼ş
-				find(i+1);//Èç¹û·ûºÏÌõ¼ş¾ÍÕÒÏÂÒ»ĞĞµÄÎ»ÖÃ¡£
+			list[i]=a;//ç¬¬iè¡Œåœ¨ç¬¬aä¸ªä½ç½®ï¼Œaæ˜¯1-8ï¼Œæ¯ä¸ªéƒ½éå†ä¸€é
+			if(check(i)){//æ£€æŸ¥ç¬¬iè¡Œæ˜¯å¦ç¬¦åˆæ¡ä»¶
+				find(i+1);//å¦‚æœç¬¦åˆæ¡ä»¶å°±æ‰¾ä¸‹ä¸€è¡Œçš„ä½ç½®ã€‚
 			}
 			
 		}
 		
 		
 	}
-	private boolean check(int n) {//¼ì²éµÚnĞĞÊÇ·ñ·ûºÏÌõ¼ş
-		for(int i=1;i<n;i++ ){//´ÓnĞĞÖ®Ç°µÄ¼ì²é£¬
+	private boolean check(int n) {//æ£€æŸ¥ç¬¬nè¡Œæ˜¯å¦ç¬¦åˆæ¡ä»¶
+		for(int i=1;i<n;i++ ){//ä»nè¡Œä¹‹å‰çš„æ£€æŸ¥ï¼Œ
 			if(list[n]==list[i]||Math.abs(n-i)==Math.abs(list[n]-list[i])){
-				//µÚÒ»¸öÌõ¼ş±íÊ¾£ºÔÚÍ¬Ò»ÁĞ£»
-				//µÚ¶ş¸öÌõ¼ş±íÊ¾£ºÊÇ·ñÊÇÍ¬Ò»Ğ±¶Ô½ÇÏß
-				//Èç¹ûÁ½Ìõ¼ş¶¼²»Âú×ã£¬Ôò·ûºÏÌõ¼ş£¬¿ÉÒÔ¼ÌĞøÏÂÈ¥¡£
+				//ç¬¬ä¸€ä¸ªæ¡ä»¶è¡¨ç¤ºï¼šåœ¨åŒä¸€åˆ—ï¼›
+				//ç¬¬äºŒä¸ªæ¡ä»¶è¡¨ç¤ºï¼šæ˜¯å¦æ˜¯åŒä¸€æ–œå¯¹è§’çº¿
+				//å¦‚æœä¸¤æ¡ä»¶éƒ½ä¸æ»¡è¶³ï¼Œåˆ™ç¬¦åˆæ¡ä»¶ï¼Œå¯ä»¥ç»§ç»­ä¸‹å»ã€‚
 				return false;
 			}
 		}
