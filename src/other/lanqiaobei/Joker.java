@@ -17,10 +17,6 @@ public class Joker {
 	}
 
 	private void dfs(int i) {
-		// TODO 自动生成的方法存根
-		
-		
-		
 		if(sum==13){
 			ans++;
 			return ;

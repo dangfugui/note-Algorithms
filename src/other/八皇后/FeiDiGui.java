@@ -3,6 +3,12 @@ package other.八皇后;
 public class FeiDiGui {
 	int N=8;
 	int list[]=new int[10];
+	public static void main(String[] args) {
+		FeiDiGui f=new FeiDiGui();
+		f.backDate(8);
+		f.print(f.list);
+		
+	}
 	
 	public void backDate(int N){
 		int i=1;
